@@ -1,0 +1,37 @@
+
+<div>
+  <ejs-tab width="850" cssClass="tab_content" headerPlacement="Top" >
+    <e-tabitems>
+      <e-tabitem>
+        <ng-template #headerText>
+          <div>Chart</div>
+        </ng-template>
+        <ng-template #content>
+          <ejs-chart [primaryXAxis]="xAxisSettings">
+            <e-series-collection>
+              <e-series type="Line" [dataSource]="chartData" xName="month" yName="salesValue">
+              </e-series>
+            </e-series-collection>
+          </ejs-chart>
+        </ng-template>
+      </e-tabitem>
+      <e-tabitem>
+        <ng-template #headerText>
+          <div>Calendar</div>
+        </ng-template>
+        <ng-template #content>
+          <ejs-calendar></ejs-calendar>
+        </ng-template>
+      </e-tabitem>
+      <e-tabitem>
+        <ng-template #headerText>
+          <div>Dropdown List</div>
+        </ng-template>
+        <ng-template #content>
+          <ejs-dropdownlist width="200px" [dataSource]="sportsData" 
+          placeholder="Select a game"></ejs-dropdownlist>
+        </ng-template>
+      </e-tabitem>
+    </e-tabitems> 
+  </ejs-tab> 
+</div>
