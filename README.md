@@ -1,36 +1,62 @@
 # How to Integrate Other UI Components inside the Angular Tab Component
 
-A quick start project that shows how to integrate other Syncfusion Angular components into the Angular Tab component using the Angular ng-template option. This project also includes a code snippet to integrate Angular Chart, calendar and dropdown list components as individual tab items.
+**Repository Description**  
+This repository contains a quick‑start Angular sample that demonstrates how to integrate other Syncfusion Angular UI components inside the Syncfusion Angular Tab component using the Angular `ng-template` option.
 
-Examples: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/tab/drag-and-drop 
+The sample illustrates how individual tab items can host rich UI components such as Charts, Calendar, and DropDownList, enabling complex layouts and reusable component composition within tab panels.
 
-Documentation: https://ej2.syncfusion.com/angular/documentation/tab/how-to/render-other-components-in-tab-using-angular-template/
+## Project Overview
+The purpose of this project is to help developers understand how to embed and render multiple Syncfusion Angular components inside the Angular Tab component. It provides a reference implementation for creating tab‑based layouts where each tab displays a different UI component using Angular templates.
 
-# Project pre-requisites
+## Features
+- Integration of the Syncfusion Angular Tab component  
+- Use of `ng-template` for rendering tab content  
+- Embed Charts, Calendar, and DropDownList components as tab items  
+- Flexible tab‑based navigation for organizing multiple UI views  
 
-Make sure that you have the compatible versions of TypeScript and Angular in your machine before starting to work on this project.
+## Examples
+- Online demo:  
+  https://ej2.syncfusion.com/angular/demos/#/bootstrap5/tab/drag-and-drop
 
-Angular 4+
+## Prerequisites
+Ensure the following requirements are met before running this project:
+- Angular 4 or later  
+- TypeScript 2.6 or later  
+- NodeJS  
+- Visual Studio Code  
 
-TypeScript 2.6+
+## Installation and Running the Application
 
-# How to run this application?
+1. Clone the repository.
+```bash
+git clone https://github.com/SyncfusionExamples/how-to-integrate-other-ui-components-inside-the-angular-tab-component.git
+```
+2. Navigate to the project directory
+3. Install the required Angular packages using:`npm install`.
+4. Start the Angular development server:`ng serve`.
+5. Open your browser and navigate to: `http://localhost:4200/`.
+6. The application will automatically reload if you modify any source files.
 
-To run this application, you need to first clone the how-to-integrate-other-ui-components-inside-the-angular-tab-component repository and then navigate to its appropriate path where it has been in your system.
+## Usage
+Run the application and switch between tabs to observe different Syncfusion Angular components rendered inside each tab. This approach can be extended to build dashboards, configuration panels, or multi‑view Angular interfaces using tab‑based navigation.
 
-To do so, open the command prompt and run the below commands one after the other.
+## Documentation
+- General Syncfusion documentation:
+https://help.syncfusion.com/
+- Angular Introduction:
+https://ej2.syncfusion.com/angular/documentation/introduction
+- Angular Tab Component Getting Started:
+https://ej2.syncfusion.com/angular/documentation/tab/getting-started
 
-git clone angular-example
+## Additional Resources
+- Rendering components in Angular Tabs using templates:
+https://ej2.syncfusion.com/angular/documentation/tab/how-to/render-other-components-in-tab-using-angular-template/
 
-cd angular-example
+## Troubleshooting
+- Ensure compatible versions of Angular and TypeScript are installed.
+- Rerun npm install if package installation fails.
+- Restart the development server if UI changes are not reflected.
+- Check the browser console for runtime or rendering errors.
 
-# Installing
-
-Once done with downloading, next you need to install the necessary packages required to run this application locally. The npm install command will install all the needed angular packages into your current project and to do so, run the below command.
-
-npm install
-
-# Running on development server
-
-Run ng serve command for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
+## Support
+For detailed API references, configuration options, and advanced usage examples, refer to the Syncfusion Angular Tab documentation links provided above.
