@@ -1,6 +1,5 @@
 # How to Integrate Other UI Components inside the Angular Tab Component
 
-**Repository Description**  
 This repository contains a quick‑start Angular sample that demonstrates how to integrate other Syncfusion Angular UI components inside the Syncfusion Angular Tab component using the Angular `ng-template` option.
 
 The sample illustrates how individual tab items can host rich UI components such as Charts, Calendar, and DropDownList, enabling complex layouts and reusable component composition within tab panels.
